@@ -2,34 +2,409 @@
 <html>
 <head>
 	<title>meetup.com-demo</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./conponent-event.css">
+	<link rel="stylesheet" type="text/css" href="./component-browse.css">
 	<link rel="stylesheet" type="text/css" href="./body.css">
 </head>
 <body>
 	<div class="container">
-		<div class="header">
-			<img src="https://www.meetup.com/mu_static/en-US/logo--script.004ada05.svg">
-			<div class="start-get">
-				<span class="start-new">Start a new group</span>
-				<span class="login">Log in</span>
-				<span>Sign up</span>
-			</div>
-		</div>
-		<div class="main-1">
-			<div class="search">
-				<h1 class="text-title">The real world is calling</h1>
-				<h2 class="text-guide">Attend local events to meet people, try something new, or do more of what you love.</h2>
-				<div class="input-type">
-					<input type="text" name="find-word" placeholder="Find your next event">
-					<button class="btn-search"><span>Search</span></button>
+		<div class="nav">
+			<div class="header">
+				<img src="https://www.meetup.com/mu_static/en-US/logo--script.004ada05.svg">
+				<div class="start-get">
+					<a href="#"><span class="start-new">Start a new group</span></a>
+					<a href="#"><span class="login">Log in</span></a>
+					<a href="#"><span>Sign up</span></a>
 				</div>
 			</div>
-			<div class="review">
-				<img src="https://learn-a-skill.dev.meetuphq.io/static/media/KnittingAroundTown.655f6f4b.jpg">
+		</div>
+		<div class="appbody">
+			<div class="nav-body">
+				<div class="main-1">
+					<div class="block-padding">
+						<div class="search">
+							<h1 class="text-title">The real world is calling</h1>
+							<h2 class="text-guide">Attend local events to meet people, try something new, or do more of what you love.</h2>
+							<div class="input-type">
+								<input class="input-find" type="text" name="find-word" placeholder="Find your next event">
+								<button class="btn-search"><a href="#">Search</a></button>
+							</div>
+						</div>
+						<div class="review">
+							<img src="https://learn-a-skill.dev.meetuphq.io/static/media/KnittingAroundTown.655f6f4b.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="main-2">
+					<div class="block-event">
+						<div class="title-event">
+							<h1>Events near Ha Noi, VN</h1>
+							<a href="#">See more</a>
+						</div>
+						<div class="list-event">
+							<div class="event">
+								<a href="#">
+									<img src="https://secure.meetupstatic.com/photos/event/a/1/1/0/600_484361232.jpeg">
+									<div class="info-event">
+										<div class="time">
+											<span>THU, NOV 7,</span>
+											<span> 6:00 PM</span>
+										</div>
+										<h1>Advanced Night</h1>
+										<p>Ha Noi Badminton</p>
+										<div class="location">
+											<i class="fa fa-map-marker" aria-hidden="true"> Viet Nam Tennis Federation</i>
+										</div>
+										<div class="list-member">
+											<div class="member">
+												<ul>
+												  <li class="img1"><img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1140421945%2F960x0.jpg%3Ffit%3Dscale" alt=""></li>
+												  <li class="img2"><img src="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI" alt=""></li>
+												  <li class="img3"><img src="https://image.shutterstock.com/image-photo/people-beauty-lifestyle-concept-shot-260nw-662171107.jpg" alt=""></li>
+												  <li class="number"><p>7</p></li>
+												</ul>
+											</div>
+											<div class="folow">
+												<i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+								</a>
+
+							</div>
+							<div class="event">
+								<a href="#">
+									<img src="https://secure.meetupstatic.com/photos/event/9/e/5/600_482222533.jpeg">
+									<div class="info-event">
+										<div class="time">
+											<span>TUE, AUG 7,</span>
+											<span> 8:00 PM</span>
+										</div>
+										<h1>Every Night</h1>
+										<p>Ha Noi Yoga</p>
+										<div class="location">
+											<i class="fa fa-map-marker" aria-hidden="true"> 27 Tran Dang Ninh</i>
+										</div>
+										<div class="list-member">
+											<div class="member">
+												<ul>
+												  <li class="img1"><img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1140421945%2F960x0.jpg%3Ffit%3Dscale" alt=""></li>
+												  <li class="img2"><img src="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI" alt=""></li>
+												  <li class="img3"><img src="https://image.shutterstock.com/image-photo/people-beauty-lifestyle-concept-shot-260nw-662171107.jpg" alt=""></li>
+												  <li class="number"><p>3</p></li>
+												</ul>
+											</div>
+											<div class="folow">
+												<i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+								</a>
+
+							</div>
+							<div class="event">
+								<a href="#">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/group_fallback_large_2.a8db3a2a.png">
+									<div class="info-event">
+										<div class="time">
+											<span>SAT, NOV 9,</span>
+											<span> 3:00 PM</span>
+										</div>
+										<h1>Free Guide Meditation</h1>
+										<p>Guide Another</p>
+										<div class="location">
+											<i class="fa fa-map-marker" aria-hidden="true"> 27 Tran Thanh Tong</i>
+										</div>
+										<div class="list-member">
+											<div class="member">
+												<ul>
+												  <li class="img1"><img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1140421945%2F960x0.jpg%3Ffit%3Dscale" alt=""></li>
+												  <li class="img2"><img src="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI" alt=""></li>
+												  <li class="img3"><img src="https://image.shutterstock.com/image-photo/people-beauty-lifestyle-concept-shot-260nw-662171107.jpg" alt=""></li>
+												  <li class="number"><p>6</p></li>
+												</ul>
+											</div>
+											<div class="folow">
+												<i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+								</a>
+
+							</div>
+							<div class="event">
+								<a href="#">
+									<img src="https://secure.meetupstatic.com/photos/event/5/5/c/f/600_476181967.jpeg">
+									<div class="info-event">
+										<div class="time">
+											<span>SAT, NOV 7,</span>
+											<span> 2:00 PM</span>
+										</div>
+										<h1>DIY</h1>
+										<p>Hanoi Arts</p>
+										<div class="location">
+											<i class="fa fa-map-marker" aria-hidden="true"> Consosia DIY</i>
+										</div>
+										<div class="list-member">
+											<div class="member">
+												<ul>
+												  <li class="img1"><img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1140421945%2F960x0.jpg%3Ffit%3Dscale" alt=""></li>
+												  <li class="img2"><img src="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI" alt=""></li>
+												  <li class="img3"><img src="https://image.shutterstock.com/image-photo/people-beauty-lifestyle-concept-shot-260nw-662171107.jpg" alt=""></li>
+												  <li class="number"><p>5</p></li>
+												</ul>
+											</div>
+											<div class="folow">
+												<i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section">
+					<h3>Browse events by category</h3>
+					<div class="list-browse">
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/OutdoorsAndAdventures.6259e1f7.jpg">
+								</div>
+								<div class="browse-content">
+									Outdoors & Adventure
+								</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Tech.8cebc2b4.jpg">
+								</div>
+								<div class="browse-content">
+									Tech
+								</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Family.17d43e48.jpg">
+								</div>
+								<div class="browse-content">
+									Family
+								</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/HealthAndWellness.5b690a4c.jpg">
+								</div>
+								<div class="browse-content">
+									Health & Wellness
+								</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Sports.920bfba1.jpg">
+								</div>
+								<div class="browse-content">
+									Sport & Fitness
+								</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Learning.3dc02fc6.jpg">
+								</div>
+								<div class="browse-content">
+									Learning
+								</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Photography.ec3848e1.jpg">
+								</div>
+								<div class="browse-content">
+									Photogaphy
+								</div>
+							</div>	
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/FoodAndDrink.f1c9fe0f.jpg">
+								</div>
+								<div class="browse-content">
+									Food & Drink
+								</div>
+							</div>	
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Writing.2bb50b15.jpg">
+								</div>
+								<div class="browse-content">
+									Writing
+								</div>
+							</div>	
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/LanguageAndCulture.dab28f38.jpg">
+								</div>
+								<div class="browse-content">
+									Languague
+								</div>
+							</div>	
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Music.fa46e5d5.jpg">
+								</div>
+								<div class="browse-content">
+									Music
+								</div>
+							</div>	
+						</a>
+						<a href="#">
+							<div class="browse">
+								<div class="browse-img">
+									<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Movements.93b76b4c.jpg">
+								</div>
+								<div class="browse-content">
+									Movements
+								</div>
+							</div>	
+						</a>
+						
+						<div class="browse">
+							<div class="browse-img">
+								<img src="https://learn-a-skill.dev.meetuphq.io/static/media/LGBTQ.4cf7c557.jpg">
+							</div>
+							<div class="browse-content">
+								LGBTQ
+							</div>
+						</div>
+						<div class="browse">
+							<div class="browse-img">
+								<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Film.0bf54c55.jpg">
+							</div>
+							<div class="browse-content">
+								Film
+							</div>
+						</div>
+						<div class="browse">
+							<div class="browse-img">
+								<img src="https://learn-a-skill.dev.meetuphq.io/static/media/SciFiAndGames.d2fed470.jpg">
+							</div>
+							<div class="browse-content">
+								Games
+							</div>
+						</div>
+						<div class="browse">
+							<div class="browse-img">
+								<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Beliefs.ed1e438c.jpg">
+							</div>
+							<div class="browse-content">
+								Belisefs
+							</div>
+						</div>
+						<div class="browse">
+							<div class="browse-img">
+								<img src="https://learn-a-skill.dev.meetuphq.io/static/media/Arts.f81466d2.jpg">
+							</div>
+							<div class="browse-content">
+								Arts
+							</div>
+						</div>
+						<div class="browse">
+							<div class="browse-img">
+								<img src="https://learn-a-skill.dev.meetuphq.io/static/media/BookClubs.09e641c7.jpg">
+							</div>
+							<div class="browse-content">
+								Book Clubs
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="body-footer">
+					<div class="footer1">
+						<a href="#">Start a new group</a>
+					</div>
+					<div class="footer2">
+						<div class="list-item1">
+							<h3>Your Account</h3>
+							<ul>
+								<li><a href="#">Sign up</a></li>
+								<li><a href="#">Login</a></li>
+								<li><a href="#">Help</a></li>
+							</ul>
+						</div>
+						<div class="list-item2">
+							<h3>Discover</h3>
+							<ul>
+								<li><a href="#">Groups</a></li>
+								<li><a href="#">Calendar</a></li>
+								<li><a href="#">Topics</a></li>
+								<li><a href="#">Cities</a></li>
+							</ul>
+						</div>
+						<div class="list-item3">
+							<h3>Meetup</h3>
+							<ul>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Meetup Pro</a></li>
+								<li><a href="#">Apps</a></li>
+								<li><a href="#">Careers</a></li>
+								<li><a href="#">API</a></li>
+							</ul>
+						</div>
+						<div class="Form">
+							<h3>Follow us</h3>
+							<div class="image-folow">
+								<i class="fa fa-facebook-square" aria-hidden="true"></i>
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<i class="fa fa-medium" aria-hidden="true"></i>
+							</div>
+							<div class="select-leguage">
+								<div class="custom-select">
+								  <select>
+								    <option value="0">English</option>
+								    <option value="1">Vietnam</option>
+								    <option value="2">Spain</option>
+								    <option value="3">Japan</option>
+								    <option value="4">Korea</option>
+								    <option value="5">China</option>
+								    <option value="6">USA</option>
+								    <option value="7">Rusia</option>
+								    <option value="8">India</option>
+								  </select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="main-2">main-2</div>
-		<div class="section">section</div>
-		<div class="footer">footer</div>
 	</div>
 </body>
 </html>

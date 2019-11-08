@@ -1,0 +1,38 @@
+body {
+	font-family: sans-serif;
+	color: #2e3e48;
+}
+.browse {
+	border: 0.5px solid #ddd;
+	display: flex;
+	flex-direction: row;
+	min-height: 45px;
+    height: 40px;
+	border-radius: 10px;
+    width: 95%;
+    transition: all 0.3s;
+    padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #2e3e48;
+}
+.browse:hover {
+	box-shadow: 0 0 2px 0 rgba(46, 62, 72, 0.2), 0 2px 4px 0 rgba(46, 62, 72, 0.2);
+	transform: translate(0, -1px);
+}
+.browse-img {
+	padding: 0;
+}
+.browse-img img {
+	width: 75px;
+	height: 100%;
+	padding: 0;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px; 
+}
+.browse .browse-content {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
